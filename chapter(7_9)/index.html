@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- wrap this in a div and add style="border: 2px solid purple;" in the opening Div tag ...  START DIV HERE-->
+ <div style = "border: 2px solid purple;">
+    <h1>Hi, Welcome to WVC  </h1>
+    <p>Log in first to get the best use out of this site:</p> 
+    <form>
+        <p >Username:  <!-- use the <input> tag as seen on page 153 to get it going, then be sure to use the "placeholder" attribute as seen on page 168-->  
+        <input type="text" name = "username"  maxlength="30" />
+        </p>
+        <p>
+        Password:  <!-- use form validation as seen on page 165 --> 
+        <input type="password" name = "password" maxlength="30" placeholder="Password is 8 characters." /></p>
+
+        <button id="submit"> Submit </button></form>
+        <!-- add a <button>  tag as seen on page 162 – but don’t use an <img> tag as seen on the same page though, instead keep it simple and write it out like this: <button> Submit</button>--> 
+ </div>
+<p>
+ After you've logged in, <a href = "video.html">CLICK HERE</a> to watch a video or listen to some music! 
+</p>
+ <!-- your CLICK HERE should take the user to the video.html page - make sure they can get back! -->
+</form>
+ <br/>
+ <!-- inside the img tag, add a border like this <img style="border: 2px solid orange;>"-->
+<img src="images/college.jpg" style="border: 2px solid orange;" alt="picture of college" height="600" width="450" />
+
+<!-- insert image of a generic college using the <img> tag as done in previous assignment  - grab image from “unsplash” (be sure to create your "images" folder in the root directory of your assignment's folder) and resize the image using height=”600” width=”450”  basically use exact code found on page 100 --> 
+
+<div style="border: 2px solid green;" >
+<!-- wrap this below in a div and add style="border: 2px solid green;" in the opening Div tag ...  START -->
+    <h3>About the school</h3>
+
+    <p>We are the best at what we do! From the arts to the sciences, we've got you covered. Here you will find all the information you need:</p>
+        <ul>
+            <li>Course list</li>
+
+            <li>How to sign up for classes</li>
+
+            <li>Resource centers</li>
+
+            <li>Faculty list</li>
+
+            <li>Campus map</li>
+    </ul>
+</div>
+ <!-- add an iframe tag here - you can use exact code from page 189-->
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.3368644659204!2d-122.01261886010727!3d37.263438241567115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e4a96742ee933%3A0xdde18e9972ad1dfb!2sWest%20Valley%20College!5e0!3m2!1sen!2sus!4v1760337438338!5m2!1sen!2sus" width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+<!-- wrap this below in a div and add style="border: 2px solid pink;" in the opening Div tag ...  START -->
+<div style="border: 2px solid pink;">
+<form>
+    <p>
+    Still need more information? No worries! Feel free to use our search bar below! </p>
+    <p><input type="search" maxlength="100" placeholder="Search..."/>
+    <!-- insert search bar – as seen on page 168, you can use exact code --> 
+    <button>submit</button></p>
+    <!--  insert button  tag as seen on page 162 – but don’t use an <img> tag as seen on the same page though, instead keep it simple and write it out like this: <button> Submit</button>--> <br/>
+</form></div>
+<!-- wrap this below in a div and add style="border: 2px solid red;" in the opening Div tag ...  START -->
+<div style="border: 2px solid red;" >
+<form>
+    <h3>Join our Mailing list! </h3>
+    <p>If you join our mailing list, you will get exclusive information regarding upcoming events, assignments, and well... more events! <br>Be the first to be “in the know”.  We promise not to spam you. <em>Really.</em></p>  <!-- emphasize “really” --> 
+    <p>
+    <input type="text" name ="email" placeholder="your email here...  " />
+    <button name = "subscribe">Submit</button>
+    <!-- insert mailing list – use exact code on page 167, found within the top two boxes – instead of using <input type=”submit”> for a button, please use the actual <button> tag for the next part below --> 
+    </p>
+    <!-- insert <button> tag as seen on page 162 – but don’t use an <img> tag as seen on the same page though, instead keep it simple and write it out like this: <button> Submit</button>  --> <br/>
+</form>
+</div>
+
+<!-- wrap this below in a div and add style="border: 2px solid blue;" in the opening Div tag ...  START -->
+<div style="border: 2px solid blue;">
+<p>What kind of music applications do you like using while studying or on the go? </p> 
+    <p> You can choose more than one music streaming application: <br/>
+    <input type = "checkbox" name="steamingApplication" value = "spotify" checked="checked"/> Spotify
+    <input type = "checkbox" name="steamingApplication" value = "appleMusic" /> Apple Music
+    <input type = "checkbox" name="steamingApplication" value = "amazonMusic" /> Amazon Music
+    <input type = "checkbox" name="steamingApplication" value = "youtubeMusic" /> YouTube Music
+    </p>
+
+<!--  insert a “checkbox”  which looks like this:   <input type=”checkbox”>  You can use the exact example/code  on page 156 in your book  --> 
+</form></div>
+
+<!-- wrap this below in a div and add style="border: 2px solid black;" in the opening Div tag ...  START -->
+<div style="border: 2px solid black;">
+<form>
+<!--  use the radio buttons, exactly as it is written on page 155--> 
+    <p> Favorite style of music?  <br/>
+    <input type = "radio" name="styleofMusic" value = "pop" checked="checked"/> Pop 
+    <input type = "radio" name="styleofMusic" value = "lofi" /> Lofi
+    <input type = "radio" name="styleofMusic" value = "rock" /> Rock
+    <input type = "radio" name="styleofMusic" value = "classic" /> Classic
+    </p><br/>
+
+</form></div>
+<!-- wrap this below in a div and add style="border: 2px solid orange;" in the opening Div tag ...  START -->
+<div style="border: 2px solid orange;">
+<form>
+    <p>Are you a MacOS, Windows, or Linux user?
+    <p>As you browse the internet, which kind of computer OS are you using?</p>
+        <select name = "os">
+            <option value = "MacOS" > MacOS </option>
+            <option value = "Windows"> Windows</option>
+            <option value = "Linux" > Linux</option>
+        </select>
+    </p>
+<!--  insert a Drop Down List Box - you can use the exact code on page 157, just change the working from ipad, radio, computer to “Windows, MacOS, Linux” --> 
+</form></div>
+<br/>
+
+<!-- wrap this below in a div and add style="border: 2px solid purple;" in the opening Div tag ...  START -->
+
+<div style="border: 2px solid purple;">
+<p>Add an image for your profile! </p>
+<img src="images/student.jpg" height="600" width="600" alt="Student sitting on the floor" />
+<!--  insert image of self or  if you don't want to use a picture of yourself, use a generic image of a college student from “unsplash” and resize the image using height=”600” width=”600”  use similar code found on page 100--> 
+
+<form>
+    <p>
+    <input type="file" name = "userUpload" />
+    <button name="userUploadSubmit">Submit</button> 
+    <!--  add file input box – same code on page 159 works--> 
+    </p>
+</form></div>
+<br/>
+Contact? 
+<br/><br/>
+
+Please use the form below: <br/>
+<br/>
+<form>
+    <fieldset>
+        <legend> Name and Email</legend>
+        <label>First Name: </label> <input type="text" name="firstName"> <br/>
+        <label>Last Name: </label> <input type="text" name="lastName"> <br/>
+        <label>Email: </label> <input type="text" name="email"> <br/>
+    </fieldset>
+</form>
+<!-- use the exact code from page 164 in your book – make sure to change the 3 titles to “First Name” “Last Name” and “Email” --> 
+
+ <br/><br/>
+<p>
+Set a date when you can visit the campus! </p>
+<p></p>
+<form>
+    <label for="username">Campus visit date: </label>
+    <input type="date" name="visitDate" />
+    <button name="dateSubmit">Submit</button>
+</form>
+<!--  use the exact code found on page 166 --> 
+
+Rubric
+ <br/><br/>
+</body>
+</html>
