@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* // <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name */
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body{
+    font-family: "Roboto";
+    font-size: 16px;
+    width: 70%;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+img { 
+     width: 500px;
+}
+
+div.img{
+    text-align: center;
+}
+
+.first{
+    color: rgb(6, 48, 59);
+    text-shadow: 1px 1px #aaa ;  /* 2px 4px #000 */
+}
+.second{
+    color: rgb(16, 122, 151);
+    text-shadow: 1px 1px #c0c0c0 ;  /* 2px 4px #000 */
+}
+.third{
+    color: rgb(16, 120, 149);
+    text-shadow: 1px 1px #c0c0c0 ;  /* 2px 4px #000 */
+}
