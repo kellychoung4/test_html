@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* // <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name */
+*, ::before, ::after { 
+    box-sizing: border-box; 
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body{
+    font-family: "Roboto";
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 75px;
+   font-size: 25px;
+}
+ul { list-style-type: none; }
+li { display: inline; margin: 10px;}
+
+a { text-decoration: none; }
+a:link      { color: deeppink; text-decoration: none; }
+a:visited   { color: gray; }
+a:hover     { color: deeppink; text-decoration: underline; }
+a:active    { color: darkcyan; }
+
+h1 {
+    border-top: 5px solid whitesmoke;
+    border-bottom: 5px solid whitesmoke;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    margin: 5% 20%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+
+img { 
+    display:block;
+    margin: auto;
+    box-shadow: 5px 5px 5px 5px #777;
+    width: 600px; 
+    height: auto;
+}
+
+div {
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+    border-radius: 10px 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color:  rgb(217, 191, 199); 
+
+}
+
+h2 { font-size: 20px; }
+
+.bgcolor {
+    background-color: lavenderblush;
+}
+.first{
+    color: rgb(6, 48, 59);
+    text-shadow: 1px 1px #aaa ;  /* 2px 4px #000 */
+}
+.second{
+    color: rgb(12, 94, 116);
+    text-shadow: 1px 1px #c0c0c0 ;  /* 2px 4px #000 */
+}
+.third{
+    color: rgb(16, 120, 149);
+    text-shadow: 1px 1px #c0c0c0 ;  /* 2px 4px #000 */
+}
+
+/* Mobile with 25px  */
+@media (max-width: 480px) {
+    h1 { font-size: 25px; }
+    img {width: 250px;}
+    div {width: 275px;}
+    h2 { font-size: 12px;}
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    h1{ font-size: 40px; }
+    img {width: 400px;}
+    div {width: 350px;}
+    h2 { font-size: 15px;}
+
+}
